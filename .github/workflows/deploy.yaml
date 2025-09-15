@@ -18,7 +18,7 @@ jobs:
       - run: docker build -t 160487/multi-server ./server
       - run: docker build -t 160487/multi-worker ./worker
 
-      - run: docer push 160487/multi-client
+      - run: docker push 160487/multi-client
       - run: docker push 160487/multi-nginx
       - run: docker push 160487/multi-server
       - run: docker push 160487/multi-worker
